@@ -1,0 +1,49 @@
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Layout Main</title>
+	<link rel="stylesheet" href="/stylesheets/style.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+</head>
+<body>
+	<header>
+		<h1>Page Title</h1>
+		<nav>
+			<div style="width: 1000px;">
+				<label for="show-menu" class="show-menu">Show Menu</label>
+				<input type="checkbox" id="show-menu" role="button">
+				<ul id="menu">
+				<li><a href="#">Home</a></li>
+				<li>
+					<a href="#">About ￬</a>
+					<ul class="hidden">
+						<li><a href="#">Who We Are</a></li>
+						<li><a href="#">What We Do</a></li>
+					</ul>
+				</li>
+				<li>
+					<a href="#">Portfolio ￬</a>
+					<ul class="hidden">
+						<li><a href="#">Photography</a></li>
+						<li><a href="#">Web & User Interface Design</a></li>
+						<li><a href="#">Illustration</a></li>
+					</ul>
+				</li>
+				<li><a href="#">News</a></li>
+				<li><a href="#">Contact</a></li>
+				</ul>
+				<i class="fa fa-lg fa-search menu-search-icon"></i>
+				</div>
+		</nav>
+	</header>
+	<div class="container">
+		{{{body}}}
+
+		<i class="fa fa-search" style="color: white; float: right; position: relative; z-index: -1;"></i>
+	</div>
+
+	<footer>
+		<h2>Footer Main</h2>
+	</footer>
+</body>
+</html>
